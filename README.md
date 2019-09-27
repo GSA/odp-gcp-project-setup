@@ -103,12 +103,11 @@ Below is a list of configuration sections and the options you can set:
 
 ### Run the script
 
-* Make sure you are in the `appengine_setup` direcory.
 * Run the script with the `--config` parameter pointing to where you saved the `project_config.ini` file.
   
 #### Example:
 
 ```
-python appengine_project_config.py --config project_config.ini
+python gcp_project_setup.py --config project_config.ini
 ```
 
