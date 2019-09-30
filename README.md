@@ -43,7 +43,7 @@ The easiest way to get started is to activate a cloud console by logging into GC
 
 You will want to clone the project.
 
-`git clone https://github.com/GSA/odp-gcp-tools.git`
+`git clone https://github.com/GSA/odp-gcp-project-setup.git`
 
 
 ### Edit the project_config.ini
