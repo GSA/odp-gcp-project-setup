@@ -183,7 +183,7 @@ def setup_groups(config):
         add_roles(account,roles,project_id,"group")
 
 def main():
-  options = parse_input()
+  options = parse_input() 
 
   #Parse and store the configuration
   config = parse_config(options.config_file)
@@ -198,7 +198,7 @@ def main():
   #Assign roles to the user accounts
   setup_users(config)  
   #Assign roles to the group accounts
-  setup_groups(config)    
+  setup_groups(config)     
 
 if __name__ == '__main__':
   try:
